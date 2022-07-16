@@ -1,0 +1,19 @@
+﻿[ÖÖ 11:12, 13.07.2022] AA Abim: Windows form uygulaması olacak
+2 - Ad, soyad, okul numarasi, sınıf, bölüm, üniversite, fotograf
+3 - Sınıf, bölüm ve üniversite COMBOBOX seklinde olacak ve COMBOBOX icindeki veri otomatik olarak form acildiginda dolacak. ( Form Loading fonksiyonu icerisinde )
+4 - Ogrenciler bir dosya sistemine kaydedilecek. (Txt dosyasi)
+	-- Her ogrenci icin 1 adet klasor olusturulacak
+	-- Klasorun icerisinde ogrencinin bilgilerinin oldugu TXT dosyasi ve resim dosyasi olacak
+	-- Txt dosyasinin icerisindeki ogrenci bilgileri OGRNO-AD-SOYAD-UNI-BOLUM-SINIF formatinda kaydedilecek.  Ornek = 121220066-OMURCAN-YURDUGUL-SELCUK UNIVERSITESI-BILGISAYAR MUHENDISLIGI-4.SINIF
+5 - OGRENCILERIN LISTELENDIGI BIR DATAGRIDVIEW arka plandaki kayıtlardan dolacak 
+	-- ogrenci numarasi -- ad -- soyad -- universite -- bolum -- sınıf
+6 - UYGULAMA ACILDIGI ZAMAN SISTEMDE KAYITLI HERHANGI BIR OGRENCI VAR ISE DATAGRIDVIEW UZERINDE DIREKT OLARAK GOSTER
+7 - OGRENCI KLASORU YOKSA OTOMATIK OLUSTURACAK - VARSA ICINI TARAYIP 6. MADDEDE VERILEN ISLEMI YAPICAK 
+
+
+
+
+
+	DEBUG KLASORUNUN ALTINDA -> OGRENCILER -> 1, 2, 3, 4, 5 OGRENCI NUMARASI KLASORU -> 1.TXT 2.TXT 1.JPG 1.PNG
+[ÖÖ 11:18, 13.07.2022] AA Abim: HERHANGI BIR BILGI EKSIK OLDUGUNDA SISTEM EKSIK BILGILERI TAMAMLAYIN SEKLINDE UYARI VEREFCEK
+[ÖÖ 11:18, 13.07.2022] AA Abim: AD SOYAD ICERISINDE NUMERIK YA DA OZEL KARAKTER OLAMAZ
